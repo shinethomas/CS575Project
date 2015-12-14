@@ -1,0 +1,99 @@
+[
+  {
+    "id": 1001,
+    "title": "Lord of the Rings : Fellowship of the Ring",
+    "author": "J. R. R. Tolkien",
+    "rating": "5",
+    "genre": "Fantasy",
+    "done": false
+  },
+  {
+    "id": 1002,
+    "title": "Lord of the Rings : The Two Towers",
+    "author": "J. R. R. Tolkien",
+    "rating": "5",
+    "genre": "Fantasy",
+    "done": false
+  },
+  {
+    "id": 1003,
+    "title": "Lord of the Rings : Return of the King",
+    "author": "J. R. R. Tolkien",
+    "rating": "5",
+    "genre": "Fantasy",
+    "done": false
+  },
+  {
+    "id": 1004,
+    "title": "The Hobbit",
+    "author": "J. R. R. Tolkien",
+    "rating": "5",
+    "genre": "Fantasy",
+    "done": false
+  },
+  {
+    "id": 1005,
+    "title": " Harry Potter and the Philosopher's Stone",
+    "author": "J. K. Rowling",
+    "rating": "4",
+    "genre": "Fantasy",
+    "done": false
+  },
+  {
+    "id": 1006,
+    "title": " Harry Potter and the Chamber of Secrets",
+    "author": "J. K. Rowling",
+    "rating": "3.5",
+    "genre": "Fantasy",
+    "done": false
+  },
+  {
+    "id": 1007,
+    "title": " Harry Potter and the Prisoner of Azkaban",
+    "author": "J. K. Rowling",
+    "rating": "4.5",
+    "genre": "Fantasy",
+    "done": false
+  },
+  {
+    "id": 1008,
+    "title": " Harry Potter and the Goblet of Fire",
+    "author": "J. K. Rowling",
+    "rating": "4",
+    "genre": "Fantasy",
+    "done": false
+  },
+  {
+    "id": 1009,
+    "title": " Harry Potter and the Order of the Phoenix",
+    "author": "J. K. Rowling",
+    "rating": "3",
+    "genre": "Fantasy",
+    "done": false
+  },
+  {
+    "id": 1010,
+    "title": " Harry Potter and the Half-Blood Prince",
+    "author": "J. K. Rowling",
+    "rating": "4.5",
+    "genre": "Fantasy",
+    "done": false
+  },
+  {
+    "id": 1011,
+    "title": " Harry Potter and the Deathly Hallows",
+    "author": "J. K. Rowling",
+    "rating": "4",
+    "genre": "Fantasy",
+    "done": false
+  },
+  {
+    "id": 1012,
+    "title": " The Alchemist",
+    "author": "Paulo Coelho",
+    "rating": "3",
+    "genre": "Fantasy, Drama",
+    "done": false
+  }
+]
+

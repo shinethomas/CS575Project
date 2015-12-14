@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html ng-app="BookManager">
+<head>
+    <meta charset="utf-8">
+    <title>Software Design Assignment</title>
+    <script>
+        function addNew()
+        {
+            var newWindow
+            newWindow = window.open("d.html","ADD New","status,height=500,width=500")
+        }
+    </script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.27/angular.min.js"></script>
+    <script type = "text/javascript" src = "BookManager.js"></script>
+    <link rel="stylesheet" href="BooksManager.css">
+</head>
+<style>
+    h3 {
+        text-align: center;
+    }
+</style>
+<header>
+    <h3> Personal Book Manager </h3>
+    <hr>
+    <p></p>
+    <h4> <input type="submit" value="New Book" onclick="addNew()"> </h4>
+</header>
+<body ng-controller="BooksCtrl">
+Search: <input ng-model="query" type="text" placeholder="Type to Search.."/>
+<p></p>
+<hr>
+<table>
+    <tr>
+        <th><a href="" ng-click="sortField ='id'; reverse = !reverse">Book ID</a></th>
+        <th></th>
+        <th></th>
+        <th><a href="" ng-click="sortField ='title'; reverse = !reverse">Book Title</a></th>
+        <th></th>
+        <th></th>
+        <th><a href="" ng-click="sortField ='author'; reverse = !reverse">Author</a></th>
+        <th></th>
+        <th></th>
+        <th><a href="" ng-click="sortField ='rating'; reverse = !reverse">Rating</a></th>
+        <th></th>
+        <th></th>
+        <th><a href="" ng-click="sortField = 'genre'; reverse = !reverse">Genre</a></th>
+    </tr>
+    <tr ng-repeat="title in BooksDB | filter:query | orderBy:sortField:reverse">
+        <td><input type="checkbox" ng-model="title.done">
+		<span class="done-{{title.done}}">
+		{{title.id}}</span></td>
+        <td></td>
+        <td></td>
+        <td>{{title.title}}</td>
+        <td></td>
+        <td></td>
+        <td>{{title.author}}</td>
+        <td></td>
+        <td></td>
+        <td>{{title.rating}}</td>
+        <td></td>
+        <td></td>
+        <td>{{title.genre}}</td>
+    </tr>
+</table>
+<p></p>
+<hr>
+</body>
+</html>
+
